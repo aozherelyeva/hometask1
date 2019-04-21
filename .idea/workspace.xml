@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e816f99e-1092-4c0e-adab-7afe6e6692c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task0/LoopTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task0/LoopTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task1/TriangleTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task1/TriangleTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task2/GradeCalculatorTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task2/GradeCalculatorTask.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,16 +23,34 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task0/LoopTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="223">
-              <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task1/TriangleTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task1/TriangleTask.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task2/GradeCalculatorTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="268">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task2/GradeCalculatorSolution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -42,6 +59,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,6 +67,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task0/LoopSolution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task0/LoopTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task1/TriangleTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task2/GradeCalculatorTask.java" />
       </list>
     </option>
   </component>
@@ -117,6 +136,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,13 +150,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TriangleTask">
-    <configuration name="LoopTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javalesson.chapter1.task0.LoopTask" />
+  <component name="RunManager" selected="Application.GradeCalculatorTask">
+    <configuration name="GradeCalculatorTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalesson.chapter1.task2.GradeCalculatorTask" />
       <module name="hometask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javalesson.chapter1.task0.*" />
+          <option name="PATTERN" value="com.javalesson.chapter1.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,23 +164,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javalesson.chapter1.task1.TriangleTask" />
+    <configuration name="OperatorsAndStatementsAnswers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalesson.chapter1.task4.OperatorsAndStatementsAnswers" />
       <module name="hometask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javalesson.chapter1.task1.*" />
+          <option name="PATTERN" value="com.javalesson.chapter1.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hometask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javalesson.chapter1.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javalesson.chapter1.task4" />
+      <option name="MAIN_CLASS_NAME" value="com.javalesson.chapter1.task4.OperatorsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatorsTest.testStrangenes0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hometask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javalesson.chapter1.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javalesson.chapter1.task4" />
+      <option name="MAIN_CLASS_NAME" value="com.javalesson.chapter1.task4.OperatorsTest" />
+      <option name="METHOD_NAME" value="testStrangenes0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatorsTest.testStrangenes1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hometask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javalesson.chapter1.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javalesson.chapter1.task4" />
+      <option name="MAIN_CLASS_NAME" value="com.javalesson.chapter1.task4.OperatorsTest" />
+      <option name="METHOD_NAME" value="testStrangenes1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TriangleTask" />
-        <item itemvalue="Application.LoopTask" />
+        <item itemvalue="Application.GradeCalculatorTask" />
+        <item itemvalue="JUnit.OperatorsTest.testStrangenes1" />
+        <item itemvalue="JUnit.OperatorsTest.testStrangenes0" />
+        <item itemvalue="Application.OperatorsAndStatementsAnswers" />
+        <item itemvalue="JUnit.OperatorsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,8 +252,26 @@
       <option name="project" value="LOCAL" />
       <updated>1555798567974</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Resolve task0 and task1">
+      <created>1555842396399</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555842396399</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="OperatorsTest - 2019.04.21 at 13h 28m 01s.xml">
+      <configuration name="OperatorsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperatorsTest_testStrangenes0 - 2019.04.21 at 13h 28m 30s.xml">
+      <configuration name="OperatorsTest.testStrangenes0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OperatorsTest_testStrangenes1 - 2019.04.21 at 13h 29m 34s.xml">
+      <configuration name="OperatorsTest.testStrangenes1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
@@ -193,15 +281,15 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24949563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -215,18 +303,13 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Init a new repository for homework #1 of a Udemy course" />
     <MESSAGE value="Init a new repository for homework1 of a Udemy course" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init a new repository for homework1 of a Udemy course" />
+    <MESSAGE value="Resolve task0 and task1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolve task0 and task1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task2/GradeCalculatorTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task0/LoopSolution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -237,14 +320,42 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task0/LoopTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
-          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task4/OperatorsAndStatementsAnswers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task4/OperatorsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task1/TriangleTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task2/GradeCalculatorSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javalesson/chapter1/task2/GradeCalculatorTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
