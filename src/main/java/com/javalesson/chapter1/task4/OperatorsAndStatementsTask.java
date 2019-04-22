@@ -4,16 +4,16 @@ package com.javalesson.chapter1.task4;
  * Данный класс предназначен для проверки знаний студентов по темам раздела
  * "Базовые конструкции языка Java" тренинга
  * "Java. От простого к сложному" на сайте Udemy.
- *
+ * <p>
  * В теле класса приводятся методы которые должны быть заполнены студентами курса.
  * Задание считается выполненным если все тесты в классе <code>OperatorTest</code>
  * выполнены успешно и при этом соблюдены все требования указанные в JavaDoc к методам.
- *
+ * <p>
  * В случае возникновения трудностей, обратите внимание на тест метода с которым возникла проблема.
  * Возможно так будет проще понять в чем суть задания.
- *
+ * <p>
  * Для проверки правильности выполнения задания просмотрите класс <code>OperatorsAndStatementsAnswers</code>
- *
+ * <p>
  * Created by Aleksandr Vasko.
  */
 public class OperatorsAndStatementsTask {
@@ -21,6 +21,7 @@ public class OperatorsAndStatementsTask {
     private static int normal = 0;
 
     public static void main(String[] args) {
+
         System.out.println("Running main");
 
 
@@ -30,8 +31,8 @@ public class OperatorsAndStatementsTask {
          * 3 значения Normal
          *
          * */
-        String[] numberTypes = testStrangeNumbers();
 
+        String[] numberTypes = testStrangeNumbers();
         countNumTypes(numberTypes);
 
     }
@@ -39,7 +40,7 @@ public class OperatorsAndStatementsTask {
     /**
      * Для начала выполнения задания раскомментируйте параметр метода checkStrangeness
      * Метод должен принимать 1 параметр типа int.
-     *
+     * <p>
      * Предположим есть некоторое значение num.
      * Имплементируйте такой метод checkStrangeness(int num){...} который будет проверять
      * переменную num на странность и вернет нам значение:
@@ -63,34 +64,51 @@ public class OperatorsAndStatementsTask {
      * Для проверки результатов выполните тесты в классе OperatorsTest нажав правой кнопкой мыши
      * и вызвав Run OperatorsTest.
      */
-    static String checkStrangeness(int num) {
-        return null;
-    }
-
 
     /**
      * Нужно посчитать количество элементов типа Strange и типа Normal
      * В результате получится 3 - Strange и 3 - Normal.
-     *
+     * <p>
      * Для подсчета используйте цикл for граничное значение можно установить в качестве константы, например
      * i=0; i<6; i++ (предполагается что на данном этапе массивы еще не рассматривались в курсе),
      * или можно использовать статическую переменную массива .length
-     *
+     * <p>
      * Проверку типа значения Strange или Normal нужно выполнить с помощью оператора switch.
      * Результаты подсчета нужно сохранить в переменные <code> private static int strange</code> и
      * <code>private static int normal</code> использовав при этом оператор инкрементирования.
-     *
+     * <p>
      * Вспомните какая разница между префиксным и постфиксным операторами инкрементирования?
-     *
+     * <p>
      * После того как задание выполнено успешно с помощью цикла for, попробуйте добиться
      * того же результата с помощью циклов while и do - while.
-     * */
-    private static void countNumTypes(String[] types) {
+     */
 
+    static String checkStrangeness(int num) {
+
+        if ((num % 2 == 1) || ((num % 2 == 0) && (6 <= num) && (num <= 20))) {
+            return "Strange";
+        } else if (((num % 2 == 0) && (2 <= num) && (num <= 5)) || ((num % 2 == 0) && (num > 20))) {
+            return "Normal";
+        } else {
+            return "Undefined";
+        }
     }
 
+    static void countNumTypes(String[] types) {
 
-    private static String[] testStrangeNumbers() {
+        for (int i = 0; i < types.length; i++) {
+            switch (types[i]) {
+                case "Strange":
+                    strange++;
+                    break;
+                case "Normal":
+                    normal++;
+                    break;
+            }
+        }
+    }
+
+    static String[] testStrangeNumbers() {
         /**
          * Передайте 3 значения которое в соответствии с заданием дадут результат
          * Strange и 3 значения которое дадут результат Normal.
@@ -99,16 +117,14 @@ public class OperatorsAndStatementsTask {
          * */
         String[] numberTypes = new String[6];
         numberTypes[0] = checkStrangeness(3);
-        numberTypes[1] = checkStrangeness(3);
-        numberTypes[2] = checkStrangeness(3);
-        numberTypes[3] = checkStrangeness(3);
-        numberTypes[4] = checkStrangeness(3);
-        numberTypes[5] = checkStrangeness(3);
+        numberTypes[1] = checkStrangeness(4);
+        numberTypes[2] = checkStrangeness(5);
+        numberTypes[3] = checkStrangeness(29);
+        numberTypes[4] = checkStrangeness(24);
+        numberTypes[5] = checkStrangeness(100);
 
         return numberTypes;
     }
-
-
 
     static int getStrange() {
         return strange;
